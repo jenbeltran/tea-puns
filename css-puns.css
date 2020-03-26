@@ -1,0 +1,60 @@
+.tea {
+	color: green;
+	opacity: 0.5;
+}
+
+.tea-break {
+	order: 1;
+}
+
+.my-mug {
+	content: "steeped tea";
+}
+
+.my-mug {
+	overflow: visible;
+}
+
+.pumpkin-spice {
+	order: 100;
+}
+
+.mug {
+	content: "tea" !important;
+	color: green;
+}
+
+/* To be included in one post */
+.tea {
+	color: black;
+}
+.tea::before {
+	content: "Zzz";
+	position: relative;
+}
+.tea::after {
+	content: "BOOM!";
+	position: absolute;
+}
+
+.us + .tea {
+	content: "love";
+}
+
+.my-tea {
+	content: "double double";
+}
+
+.my-tea-latte {
+	content: "extra froth";
+}
+
+/* Time to refill my cup!  */
+.my-mug {
+	content: " ";
+}
+
+/* When you're on that third cup of caffeine for the day */
+.me {
+	word-spacing: 0;
+}

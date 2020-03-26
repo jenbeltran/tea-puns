@@ -1,9 +1,4 @@
 //@everythingjenb
-const awesomeDay = (steepedTea) => {
-	alert('Have a tea-rrific day!');
-};
-
-//@everythingjenb
 const happyFriday = (tea) => {
 	if (tea != 'steeped') {
 		console.log("Be patient, it's Friday!");
